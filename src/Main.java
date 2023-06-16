@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Scanner;
 
 public class Main {
@@ -26,5 +28,6 @@ public class Main {
                             "a hero has to choose between love and fight.\n" +
                             "Welcome to In Sertãos Sands");
         }
+        leitor.close();
     }
 }
