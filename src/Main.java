@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void print (String a){
+        public static void print (String a){
             print(a);
         }
     public static void main(String [] args) {
@@ -21,12 +21,12 @@ public class Main {
                              "um herói tem que escolher entre amar e lutar.\n" +
                              "Bem-vindo ao Nas Areias dos Sertões");
             print("Nessa sessão vamos escolher alguns aspectos o seu personagem" +
-                                " tais como nome, gênero e arma favorita");
-            print("Seu personagem é HOMEM ou MULHER?");
-            String homem = ("HOMEM");
-            String genero = leitor .nextLine();
+                                " tais como nome e arma favorita");
+            // print("Seu personagem é HOMEM ou MULHER?");
+            // String homem = ("HOMEM");
+            // String genero = leitor .nextLine();
 
-            if (genero.equalsIgnoreCase(homem)){
+            // if (genero.equalsIgnoreCase(homem)){
                 print("Qual nome seu personagem terá?");
                 String nome = leitor .nextLine();
                 print("Ok, vou chamá-lo de " + nome);
@@ -38,8 +38,8 @@ public class Main {
                 "inimigos que surgirão na sua aventura.\n"+
                 "Nossa ultima arma é a MANDALA, uma armamento místico com escritas antigas "+
                 "que canaliza as energia dos elementos naturais "+
-                "como as águas do São Francisco e a areia escaldante do sertão e libera como" +
-                "rajadas de água congelante ou energia quente como sol.");
+                "a força do Mandacaru e a areia escaldante do sertão e libera como" +
+                "finos e longos espinhos ou energia quente como sol.");
                 print("Qual arma você prefere? CARABINA, PEIXEIRA ou MANDALA?");
                 String arma = leitor .nextLine();
                 print("Agora que temos tudo vamos dar inicio a nossa aventura\n"+
@@ -244,8 +244,8 @@ public class Main {
                             print("recarregando rapidamente sua arma e buscando cobertura, ele não deixa de notar" +
                             "que ela possui sua arma propria também, uma especie de besta feita de um material branco-" +
                             "amarelado, algo parecido com ossos\n '- Talvez seja ossos de tubarão', pensou, "+
-                            "seria cômico se não fosse tragico. Dentre os proximos minutos houve uma luta de proporções" +
-                            "épicas, trocas de tiros e flexas de ossos cobertos de seiva de Jurubeba, planta que pode causar" +
+                            "Dentre os proximos minutos houve uma luta de proporções" +
+                            "épicas, trocas de tiros e flechas de ossos cobertos de seiva de Jurubeba, planta que pode causar" +
                             "necropsia gradativamente. Apesar das altas habilidades de Shayanne, nossos herois consegem derrotá-" +
                             "la com um tiro generoso na região abdominal, que fura as duras escamas e conseguem penetrar e "+
                             "destuir os orgãos internos da rainha-tubrão, que cai no chão perdendo sangue e sentindo sua vida" +
@@ -268,197 +268,262 @@ public class Main {
                                     "a sua família e decide continuar cuidando dela.");
                                 }
                         if (arma.equalsIgnoreCase("peixeira")){
-                            print("sacando rapidamente sua "+ arma + "ele parte para cima dela festerindo golpes de faca," +
-                            " que gradativamente vão perfurando sua dra pele de escamas, algumas vezes procurando cobertura" +
-                            "");
+                            print("sacando rapidamente sua "+ arma + "ele parte para cima dela "+
+                            "desferindo golpes de faca, que gradativamente vão perfurando sua " +
+                            "dura pele de escamas, ele não deixa de notar que ela possui sua" +
+                            "arma propria também, uma especie de besta feita de um material branco-"+
+                            "amarelado, algo parecido com ossos -Talvez seja ossos de tubarão', pensou,"  + 
+                            "Dentre os proximos minutos houve" +
+                            "uma luta de proporções épicas, golpes massivos de faca e " +
+                            "flechas de ossos cobertos de seiva de Jurubeba, planta que pode causar" +
+                            "necropsia gradativamente voando em direção ao nosso heroi." + 
+                            "Apesar das altas habilidades de Shayanne nosso heroi consegue " +
+                            "derrotá-la com um golpe estratégico no abdomem, região de menor" +
+                            "prevalencia de escamas destuir os orgãos internos da rainha-tubrão," +
+                            "que cai no chão perdendo sangue e sentindo sua vida" +
+                            "se esvair, cansados mas vitoriosos o Capitão Hermenegildo e " + nome + 
+                            "retornam as suas casas com uma promessa de paz de ambas as partes " +
+                            "e de cooperação para a reconstrução da vila com os poucos moradores restantes.");
+                            print("FIM DA HISTORIA");
+                            print("EPÍLOGO");
+                            print("Ao retornar para a casa ele se encontra com sua mãe e irmã, "+
+                            "ao ver a destuição do seu lar, ele não consegue não pensar em seu amor," +
+                            "Catarina. Com o coração dividido entre continuar ali e reconstruir os " +
+                            "danos causados no ultimo dia e se aventurar a procurar seu amor," +
+                            nome + "se vê novamente sem saída, deveria ele ir ATRAS de sua amada" +
+                            "ou RECONSTRUIR a vila com sua familia?");
+                            decisao = leitor. nextLine();
+                            if (decisao.equalsIgnoreCase("atras")){
+                                print("Após conversar com sua mãe, ele finalmente consegue seguir em paz, a procura " +
+                                "da felicidade com sua amada, enquanto tem garantia que sua família ficará feliz.");
+                            }
+                            else{
+                                print("Mesmo de coração partido ele decide cumprir com seu dever perante" +
+                                    "a sua família e decide continuar cuidando dela.");
+                        if (arma.equalsIgnoreCase("mandala")){
+                            print("tirando sua Mandala ele começa a se concentrar para ativar "+
+                            "os poderes, após conseguir liberar as pimeiras rajadas de energia " +
+                            "ele se sente preparado para atacar, entrando em combate com a rainha-" +
+                            "tubarão, que retrucava com alvejando-o com sua besta feita de um material" +
+                            "branco-amarelao, parecido com ossos, - Talvez seja ossos de tubarão pensou," +
+                            nome + ", e com suas flechas de osso cobertas" +
+                            "de seiva de Jurubeba, planta que pode causar necropsia gradativamente voavam em "+
+                            "direção ao nosso heroi. Após queimar muito a pele de Shayanne e lhe causar uma dor " +
+                            "terrivel com os espinhos, finaemnte a líder sucumbe aos ferimentos e vê seu fim" +
+                            "na morte. Caída, sem vida os nossos vitoriosos podem finalmente desfrutar de alguma " +
+                            "calmaria, vendo que não há mais por que lutar. Capitão Hemernegildo e " + nome +
+                            "retornam as suas casas com uma promessa de paz de ambas as partes " +
+                            "e de cooperação para a reconstrução da vila com os poucos moradores restantes.");
+                            print("FIM DA HISTORIA");
+                            print("EPÍLOGO");
+                            print("Ao retornar para a casa ele se encontra com sua mãe e irmã, "+
+                            "ao ver a destuição do seu lar, ele não consegue não pensar em seu amor," +
+                            "Catarina. Com o coração dividido entre continuar ali e reconstruir os " +
+                            "danos causados no ultimo dia e se aventurar a procurar seu amor," +
+                            nome + "se vê novamente sem saída, deveria ele ir ATRAS de sua amada" +
+                            "ou RECONSTRUIR a vila com sua familia?");
+                            decisao = leitor. nextLine();
+                            if (decisao.equalsIgnoreCase("atras")){
+                                print("Após conversar com sua mãe, ele finalmente consegue seguir em paz, a procura " +
+                                "da felicidade com sua amada, enquanto tem garantia que sua família ficará feliz.");
+                            }
+                            else{
+                                print("Mesmo de coração partido ele decide cumprir com seu dever perante" +
+                                    "a sua família e decide continuar cuidando dela.");
+                        }
                         }    
+                
                     }
+                }
+                else {
+                    print("Ainda ressentido por todos os anos de desavenças, " + nome + "decide enfrentar a grande "+
+                    "ameaça por si só, apenas armado com sua " + arma + "ele decide furtivamente invadir a " +
+                    "");
                 }
             }
-                //o amor do heroi foge e ele vai atacar os vilões usano sua arma
-                //else if arma 1 arma 2 e arma 3
-                //depois de muita luta o heroi em conflito se pergunta se deve se juntar ao Capitão
-                //if e else
-                //if sim eles se juntam e derrotam a vilã mas nunca se encontra com o seu amor
-                //else ele luta bravamente e morre o amor estava grávida de um filho seu 
-                //fim da historia
-            
-            else{
-                print("Qual nome seu personagem terá?");
-                String nome = leitor .nextLine();
-                print("Ok, vou chamá-la de " + nome);
-                print("Agora você irá escolher sua a arma favorita, você tem três escolhas: \n"+
-                "A CARABINA é uma arma de fogo de longo alcance, medindo 1 metro e equipada com balas de 5mm, "+
-                "foi muito utilizada no século XX por Cangaceiros e Vaqueiros,\n" +
-                "A PEIXEIRA será sua arma de corpo a corpo, trazendo uma lâmina e 30cm presa a um cabo de feito de " +
-                "restos de crânio de Jaguatirica, essa arma poderá te ajudar em momentos de conflito direto com os "+
-                "inimigos que surgirão na sua aventura.\n"+
-                "Nossa ultima arma é a MANDALA, uma armamento místico com escritas antigas "+
-                "que canaliza as energia dos elementos naturais "+
-                "como as águas do São Francisco e a areia escaldante do sertão e libera como" +
-                "rajadas de água congelante ou energia quente como sol.");
-                print("Qual arma você prefere? CARABINA, PEIXEIRA ou MANDALA?");
-                String arma = leitor .nextLine();
-                print("Agora que temos tudo vamos dar inicio a nossa aventura\n"+
-                "Bem vindo a Nas areias do Sertão");
-                print("Capitulo 1: A Invasão do Leste");
-                print("No ano de 35 d.I (depois da Inundação), a jovem " + nome +
-                " vive um dia após o outro, com recursos limitados\n" + 
-                "e poucas chances de sobrevivencia\n"+
-                "há poucos momentos de felicidade, exceto quando encontra o seu amor Ícaro, filho\n" +
-                "do Capitão Baltazar, que assumiu a liderança das terras ao redor do rio no\n"+
-                "segundo ano após a grande inundação e que conflita diretamente com a familia da\n"+
-                "nossa heroína, por isso que todos os encontros do casal são sempre às escondidas,\n" +
-                "numa área sagrada e que os mais antigos evitam pisar pela força espiritual do lugar.\n" +
-                "Em um desses encontros, Ícaro propõe uma ideia maluca\n" +
-                "'- E se fugíssemos?' diz ele, empolgado!\n" +
-                "'- Para aonde? Todo o mundo é igual aqui' diz " + nome + " com tristeza na fala 'O mundo " +
-                "acabou Ícaro.'\n" +
-                "'- Mas não precisa ser assim, encontros às escondidas, sempre nesse lugar velho, poderíamos\n" +
-                "ser felizes, sabe? Existe um lugar, onde a água salgada não destuiu os rios, onde há vida e "+
-                "esperança!'\n"
-                + nome + " fica em silêncio, tudo que ela mais quer é fugir daquele lugar, daquelas pessoas.\n " +
-                "'- Poderíamos fugir do meu pai' diz Ícaro após perceber a pausa da sua amada\n" +
-                "ele sabe como o assunto é delicado e isso a fará pensar sobre.\n" +
-                "'- Acho que deveríamos ir, já está ficando tarde!' " + nome + " se levanta e se despede.\n" +
-                "'- Amanhã a gente se encontra, tá bem?' eles se beijam e " + nome + " vai embora.\n" +
-                "No caminho para casa " + nome + " pensou muito no que Ícaro disse, ela já havia ouvido falar " +
-                "de Paradiso, um lugar onde a água salgada do mar não destruiu a vida, mas esse lugar " +
-                "é apenas um mito, ao longo dos anos diversos viajantes passaram pelas terras da familía de " +
-                nome + " sempre famintos e com sede, sempre dizendo sobre esse lugar e suas maravilhas, mas nunca " +
-                "soube era verdade ou não e ela também nunca foi procurar.\n" +
-                "Já em casa " + nome + " encontra sua mãe e eles discutem um pouco sobre o dia, "+
-                "após o papo sua mãe pergunta se ela quer comer, a janta do dia é xerém com galinha, " +
-                "a preferida dela, mas depois da ultima coversa com Ícaro ela não está com vontade de nada, então" +
-                "diz apenas que irá dormir. Em seus sonhos, " + nome + " tem a visão de um mundo melhor, " +
-                "cheio de árvores e vida mas que rapidamente é destruido por uma nuvem vermelha que engole tudo. "+
-                "Já na parte da manhã " + nome + "acorda atordoada, procurando sentido no que acabou de sonhar" +
-                "parece ser mais tarde do que ela costuma acordar já que não ouve os barulhos tradicionais do "+
-                "seu dia-a-dia, porém um estrondo urge no limiar da sua audição, estremecendo seus timpanos e " +
-                "fazendo-o perder um pouco do seu equilibrio. " + nome + "não sabe o que está acontecendo " +
-                "mas logo logo irá descobrir que seu pesadelo irá se tornar realidade. " +
-                "Fora de sua casa ela segue os sons de balas e gritos até que chega ao centro da vila e " +
-                "encontra uma cena de desolação, as pessoas, que tanto lutaram pela sua sobrevivencia" +
-                "familias que há mais de decadas vem se esfoçando o máximo para remanecer nas terras centenárias " +
-                "de seus antepassados, agora estão caidos no chão, sem vida no olhar, nesse momento vem em sua mente " +
-                "Ícaro, onde ele está, como ele está, ela empunha sua " + arma + "e vai à procura de seu amado. "+ 
-                "No caminho ele faz algumas vitimas, pessoas estranhas vestidas de modo completamente diferente e " +
-                "hostis.\n" +
-                "Ao virar em uma pequena viela ela se depara uma uam cena que o faz perder novamente seu equilibrio " +
-                "seu pai, caido no chão, sangrando e sem vida sob o sol daquela manhã. Isso enfurece-a e ela sai a " +
-                "a procura de quem fez aquilo.");
-                if (arma.equalsIgnoreCase("CARABINA")){
-                    print(nome + ", furtivamente anda pelas ruelas da vila, ocasionalmente atirando em mais algumas" +
-                    "pessoas vestidas como aquele primeiro soldado, após alguns minutos ela finalmente se encontra "+
-                    "com a origem de toda aquele caos " + "Uma mulher alta, proximo dos 1m80 esguia e com "+
-                    "um rosto asustador ordenando a seus homens e mulheres que levem a ela os sobreviventes " +
-                    "ela pensa em atirar e acabar com tudo aquilo, quando subitamente é puxado para dentro de uma das" +
-                    "casas. Prestes a atirar, ele vê o rosto de seu amado, que trás todo o corforto que elq procurava" +
-                    "naquele momento.\n Elq contou a ela sobre seu pai e ele falou que perdeu sua mãe também, " +
-                    "e que movido pelo luto decidiu que iria, naquele momento, embora dali, e convida " + nome +
-                    "para se juntar a ele. Nesse momento " + nome + " se vê encurralada, ao mesmo tempo que " +
-                    "ela deseja vingar a morte de seu pai, aquela é a hora perfeita para que os dois possam " +
-                    "ter o mais próximo de uma vida normal naquele mundo tão surreal. Ela se vê sem tempo para " +
-                    "tomar uma decisão, ela deseja ficar mas também deseja fugir na mesma intensidade. O que " +
-                    nome + " deverá fazer, ela deve FUGIR com sua amada ou FICAR e lutar?");
-                    String decisao = leitor .nextLine();
-                    if (decisao.equalsIgnoreCase("FUGIR")){
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar no "+
-                        " seu futuro. Ela diz sim para o amor e para sua amada, juntos eles conseguem chegar ao limiar" +
-                        "da cidade, abatendo alguns poucos soldados, quando chegam ao fim da cidade ela olha para "+
-                        "trás e vê ali onde um dia chamou de lar, mas agora não é hora de se lamentar, eles começam" +
-                        "a correr sem olhar para trás, sem olhar para o que agora é seu passado.");
-                        print("FIM DO CAPITULO 1");
-                        print("EPÍLOGO");
-                        print("Após dias caminhando no sol escaldante, sem perspectiva de quando acharão a "+
-                        "tal terra prometida, o nosso casal é salvo por um vaqueiro desconhecido que os leva "+
-                        "na garupa do seu cavalo, ao sentarem no animal ambos desmaiam de exaustão, se questionando "+
-                        "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + "se depara com um " +
-                        "lugar que nem em sonho conseguria idealizar, não se via um sinal de seca, de areia ou de " +
-                        "desolação, grama verde percorria todo o espaço até perder a vista, árvores e uma água cristalina "+
-                        "cobriam cada m² de beleza deslumbrante. " + nome + "e Catarina foram bem recebiddos pelos "+
-                        "locias que os alimentaram e ensinaram os valores e regras de Paradiso, ao fim foram " +
-                        "perguntados se gostariam de ficar na comunidade e se juntar a eles, o que ambos assentiram" +
-                        "não vendo sentido em fazer todo aquele esforço em vão.");
-                        print("CINCO ANOS DEPOIS");
-                        print("Após vivendo em perfeita harmonia durante cinco anos, os habitantes de Paradiso" +
-                        "são surpreendidos por um novo morador, um dos vaqueiros da comunidade recolhe uma pessoa " +
-                        "que estava caída em algum lugar do deserto do sertão, quando o viajante recobra os sentidos" +
-                        "afim de saber o destino de sua família " + nome + " o questiona da situação na sua vila, " +
-                        "porém o que ele descobre lhe causa uam tristeza profunda. O viajante conta que o mulher que " +
-                        nome + "viu cinco anos atrás era na verdade uma conquistadora de terras, que ia aos poucos " +
-                        "subjulgando e escravizando as vilas e pequenas cidades ao longo do São Francisco e que " +
-                        "esse teria sido o fim de sua vila e sua família. " + nome + "se sente muito culpado" +
-                        "e se isola por anos pois se sente de certa forma culpado pelo que aconteceu à sua familia.");
-                        print("FIM DA HISTÓRIA");
-                    }
-                    else{
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar na "+
-                        "sua familia. Ele diz não para o seu amor, e a vê partindo para longe de seus braços " +
-                        "sem olhar para trás. A partir dali ele decide procurar sua mãe e sua irmã, e vingar a "+
-                        "morte de seu pai, ele faz uma prece a Padre Cícero e começa a procurar sua família e " +
-                        "esquecer aquela que um dia foi seu grande amor.");
-                        print("FIM DO CAPITULO 1");
-                    }
-                }
-                else{
-                    print(nome + ", furtivamente anda pelas ruelas da vila, ocasionalmente atacando mais algumas" +
-                    "pessoas vestidas como aquele primeiro soldado, após alguns minutos ele finalmente se encontra "+
-                    "com a origem de toda aquele caos " + "Uma mulher alta, proximo dos 1m80 esguia e com "+
-                    "um rosto asustador ordenando a seus homens e mulheres que levem a ela os sobreviventes " +
-                    "ele pensa em ataca-la e acabar com tudo aquilo, quando subitamente é puxado para dentro de uma das" +
-                    "casas. Prestes a atirar, ele vê o rosto de sua amada, que trás todo o corforto que ele procurava" +
-                    "naquele momento.\n Ele contou a ela sobre seu pai e ela falou que perdeu sua mãe também, " +
-                    "e que movida pelo luto decidiu que iria, naquele momento, embora dali, e convida " + nome +
-                    "para se juntar a ela. Nesse momento " + nome + " se vê encurralado, ao mesmo tempo que " +
-                    "ele deseja vingar a morte de seu pai, aquela é a hora perfeita para que os dois possam " +
-                    "ter o mais próximo de uma vida normal naquele mundo tão surreal. Ele se vê sem tempo para " +
-                    "tomar uma decisão, ele deseja ficar mas também deseja fugir na mesma intensidade. O que " +
-                    nome + " deverá fazer, ele deve FUGIR com sua amada ou FICAR e lutar?");
-                    String decisao = leitor .nextLine();
-                    if (decisao.equalsIgnoreCase("FUGIR")){
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar no "+
-                        " seu futuro. Ele diz sim para o amor e para sua amada, juntos eles conseguem chegar ao limiar" +
-                        "da cidade, abatendo alguns poucos soldados, quando chegam ao fim da cidade ele olha para "+
-                        "trás e vê ali onde um dia chamou de lar, mas agora não é hora de se lamentar, eles começam" +
-                        "a correr sem olhar para trás, sem olhar para o que agora é seu passado.");
-                        print("FIM DO CAPITULO 1");
-                        print("EPÍLOGO");
-                        print("Após dias caminhando no sol escaldante, sem perspectiva de quando acharão a "+
-                        "tal terra prometida, o nosso casal é salvo por um vaqueiro desconhecido que os leva "+
-                        "na garupa do seu cavalo, ao sentarem no animal ambos desmaiam de exaustão, se questionando "+
-                        "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + "se depara com um " +
-                        "lugar que nem em sonho conseguria idealizar, não se via um sinal de seca, de areia ou de " +
-                        "desolação, grama verde percorria todo o espaço até perder a vista, árvores e uma água cristalina "+
-                        "cobriam cada m² de beleza deslumbrante. " + nome + "e Ícaro foram bem recebiddos pelos "+
-                        "locias que os alimentaram e ensinaram os valores e regras de Paradiso, ao fim foram " +
-                        "perguntados se gostariam de ficar na comunidade e se juntar a eles, o que ambos assentiram" +
-                        "não vendo sentido em fazer todo aquele esforço em vão.");
-                        print("CINCO ANOS DEPOIS");
-                        print("Após vivendo em perfeita harmonia durante cinco anos, os habitantes de Paradiso" +
-                        "são surpreendidos por um novo morador, um dos vaqueiros da comunidade recolhe uma pessoa " +
-                        "que estava caída em algum lugar do deserto do sertão, quando o viajante recobra os sentidos" +
-                        "afim de saber o destino de sua família " + nome + " o questiona da situação na sua vila, " +
-                        "porém o que ele descobre lhe causa uma tristeza profunda. O viajante conta que o mulher que " +
-                        nome + "viu cinco anos atrás era na verdade uma conquistadora de terras, que ia aos poucos " +
-                        "subjulgando e escravizando as vilas e pequenas cidades ao longo do São Francisco e que " +
-                        "esse teria sido o fim de sua vila e sua família. " + nome + "se sente muito culpado" +
-                        "e se isola por anos pois se sente de certa forma culpada pelo que aconteceu à sua familia.");
-                        print("FIM DA HISTÓRIA");
-                    }
-                    else{
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar na "+
-                        "sua familia. Ela diz não para o seu amor, e o vê partindo para longe de seus braços " +
-                        "sem olhar para trás. A partir dali ele decide procurar sua mãe e sua irmã, e vingar a "+
-                        "morte de seu pai, ela faz uma prece a Padre Cícero e começa a procurar sua família e " +
-                        "esquecer aquele que um dia foi seu grande amor.");
-                        print("FIM DO CAPITULO 1");
-                    }
-                }
             }
-        leitor.close();
         }
-}
+    }
+
+            
+    //         else{
+    //             print("Qual nome seu personagem terá?");
+    //             String nome = leitor .nextLine();
+    //             print("Ok, vou chamá-la de " + nome);
+    //             print("Agora você irá escolher sua a arma favorita, você tem três escolhas: \n"+
+    //             "A CARABINA é uma arma de fogo de longo alcance, medindo 1 metro e equipada com balas de 5mm, "+
+    //             "foi muito utilizada no século XX por Cangaceiros e Vaqueiros,\n" +
+    //             "A PEIXEIRA será sua arma de corpo a corpo, trazendo uma lâmina e 30cm presa a um cabo de feito de " +
+    //             "restos de crânio de Jaguatirica, essa arma poderá te ajudar em momentos de conflito direto com os "+
+    //             "inimigos que surgirão na sua aventura.\n"+
+    //             "Nossa ultima arma é a MANDALA, uma armamento místico com escritas antigas "+
+    //             "que canaliza as energia dos elementos naturais "+
+    //             "como as águas do São Francisco e a areia escaldante do sertão e libera como" +
+    //             "rajadas de água congelante ou energia quente como sol.");
+    //             print("Qual arma você prefere? CARABINA, PEIXEIRA ou MANDALA?");
+    //             String arma = leitor .nextLine();
+    //             print("Agora que temos tudo vamos dar inicio a nossa aventura\n"+
+    //             "Bem vindo a Nas areias do Sertão");
+    //             print("Capitulo 1: A Invasão do Leste");
+    //             print("No ano de 35 d.I (depois da Inundação), a jovem " + nome +
+    //             " vive um dia após o outro, com recursos limitados\n" + 
+    //             "e poucas chances de sobrevivencia\n"+
+    //             "há poucos momentos de felicidade, exceto quando encontra o seu amor Ícaro, filho\n" +
+    //             "do Capitão Baltazar, que assumiu a liderança das terras ao redor do rio no\n"+
+    //             "segundo ano após a grande inundação e que conflita diretamente com a familia da\n"+
+    //             "nossa heroína, por isso que todos os encontros do casal são sempre às escondidas,\n" +
+    //             "numa área sagrada e que os mais antigos evitam pisar pela força espiritual do lugar.\n" +
+    //             "Em um desses encontros, Ícaro propõe uma ideia maluca\n" +
+    //             "'- E se fugíssemos?' diz ele, empolgado!\n" +
+    //             "'- Para aonde? Todo o mundo é igual aqui' diz " + nome + " com tristeza na fala 'O mundo " +
+    //             "acabou Ícaro.'\n" +
+    //             "'- Mas não precisa ser assim, encontros às escondidas, sempre nesse lugar velho, poderíamos\n" +
+    //             "ser felizes, sabe? Existe um lugar, onde a água salgada não destuiu os rios, onde há vida e "+
+    //             "esperança!'\n"
+    //             + nome + " fica em silêncio, tudo que ela mais quer é fugir daquele lugar, daquelas pessoas.\n " +
+    //             "'- Poderíamos fugir do meu pai' diz Ícaro após perceber a pausa da sua amada\n" +
+    //             "ele sabe como o assunto é delicado e isso a fará pensar sobre.\n" +
+    //             "'- Acho que deveríamos ir, já está ficando tarde!' " + nome + " se levanta e se despede.\n" +
+    //             "'- Amanhã a gente se encontra, tá bem?' eles se beijam e " + nome + " vai embora.\n" +
+    //             "No caminho para casa " + nome + " pensou muito no que Ícaro disse, ela já havia ouvido falar " +
+    //             "de Paradiso, um lugar onde a água salgada do mar não destruiu a vida, mas esse lugar " +
+    //             "é apenas um mito, ao longo dos anos diversos viajantes passaram pelas terras da familía de " +
+    //             nome + " sempre famintos e com sede, sempre dizendo sobre esse lugar e suas maravilhas, mas nunca " +
+    //             "soube era verdade ou não e ela também nunca foi procurar.\n" +
+    //             "Já em casa " + nome + " encontra sua mãe e eles discutem um pouco sobre o dia, "+
+    //             "após o papo sua mãe pergunta se ela quer comer, a janta do dia é xerém com galinha, " +
+    //             "a preferida dela, mas depois da ultima coversa com Ícaro ela não está com vontade de nada, então" +
+    //             "diz apenas que irá dormir. Em seus sonhos, " + nome + " tem a visão de um mundo melhor, " +
+    //             "cheio de árvores e vida mas que rapidamente é destruido por uma nuvem vermelha que engole tudo. "+
+    //             "Já na parte da manhã " + nome + "acorda atordoada, procurando sentido no que acabou de sonhar" +
+    //             "parece ser mais tarde do que ela costuma acordar já que não ouve os barulhos tradicionais do "+
+    //             "seu dia-a-dia, porém um estrondo urge no limiar da sua audição, estremecendo seus timpanos e " +
+    //             "fazendo-o perder um pouco do seu equilibrio. " + nome + "não sabe o que está acontecendo " +
+    //             "mas logo logo irá descobrir que seu pesadelo irá se tornar realidade. " +
+    //             "Fora de sua casa ela segue os sons de balas e gritos até que chega ao centro da vila e " +
+    //             "encontra uma cena de desolação, as pessoas, que tanto lutaram pela sua sobrevivencia" +
+    //             "familias que há mais de decadas vem se esfoçando o máximo para remanecer nas terras centenárias " +
+    //             "de seus antepassados, agora estão caidos no chão, sem vida no olhar, nesse momento vem em sua mente " +
+    //             "Ícaro, onde ele está, como ele está, ela empunha sua " + arma + "e vai à procura de seu amado. "+ 
+    //             "No caminho ele faz algumas vitimas, pessoas estranhas vestidas de modo completamente diferente e " +
+    //             "hostis.\n" +
+    //             "Ao virar em uma pequena viela ela se depara uma uam cena que o faz perder novamente seu equilibrio " +
+    //             "seu pai, caido no chão, sangrando e sem vida sob o sol daquela manhã. Isso enfurece-a e ela sai a " +
+    //             "a procura de quem fez aquilo.");
+    //             if (arma.equalsIgnoreCase("CARABINA")){
+    //                 print(nome + ", furtivamente anda pelas ruelas da vila, ocasionalmente atirando em mais algumas" +
+    //                 "pessoas vestidas como aquele primeiro soldado, após alguns minutos ela finalmente se encontra "+
+    //                 "com a origem de toda aquele caos " + "Uma mulher alta, proximo dos 1m80 esguia e com "+
+    //                 "um rosto asustador ordenando a seus homens e mulheres que levem a ela os sobreviventes " +
+    //                 "ela pensa em atirar e acabar com tudo aquilo, quando subitamente é puxado para dentro de uma das" +
+    //                 "casas. Prestes a atirar, ele vê o rosto de seu amado, que trás todo o corforto que elq procurava" +
+    //                 "naquele momento.\n Ela contou a ele sobre seu pai e ele falou que perdeu sua mãe também, " +
+    //                 "e que movido pelo luto decidiu que iria, naquele momento, embora dali, e convida " + nome +
+    //                 "para se juntar a ele. Nesse momento " + nome + " se vê encurralada, ao mesmo tempo que " +
+    //                 "ela deseja vingar a morte de seu pai, aquela é a hora perfeita para que os dois possam " +
+    //                 "ter o mais próximo de uma vida normal naquele mundo tão surreal. Ela se vê sem tempo para " +
+    //                 "tomar uma decisão, ela deseja ficar mas também deseja fugir na mesma intensidade. O que " +
+    //                 nome + " deverá fazer, ela deve FUGIR com sua amada ou FICAR e lutar?");
+    //                 String decisao = leitor .nextLine();
+    //                 if (decisao.equalsIgnoreCase("FUGIR")){
+    //                     print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar no "+
+    //                     " seu futuro. Ela diz sim para o amor e para sua amada, juntos eles conseguem chegar ao limiar" +
+    //                     "da cidade, abatendo alguns poucos soldados, quando chegam ao fim da cidade ela olha para "+
+    //                     "trás e vê ali onde um dia chamou de lar, mas agora não é hora de se lamentar, eles começam" +
+    //                     "a correr sem olhar para trás, sem olhar para o que agora é seu passado.");
+    //                     print("FIM DO CAPITULO 1");
+    //                     print("EPÍLOGO");
+    //                     print("Após dias caminhando no sol escaldante, sem perspectiva de quando acharão a "+
+    //                     "tal terra prometida, o nosso casal é salvo por um vaqueiro desconhecido que os leva "+
+    //                     "na garupa do seu cavalo, ao sentarem no animal ambos desmaiam de exaustão, se questionando "+
+    //                     "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + "se depara com um " +
+    //                     "lugar que nem em sonho conseguria idealizar, não se via um sinal de seca, de areia ou de " +
+    //                     "desolação, grama verde percorria todo o espaço até perder a vista, árvores e uma água cristalina "+
+    //                     "cobriam cada m² de beleza deslumbrante. " + nome + "e Catarina foram bem recebiddos pelos "+
+    //                     "locias que os alimentaram e ensinaram os valores e regras de Paradiso, ao fim foram " +
+    //                     "perguntados se gostariam de ficar na comunidade e se juntar a eles, o que ambos assentiram" +
+    //                     "não vendo sentido em fazer todo aquele esforço em vão.");
+    //                     print("CINCO ANOS DEPOIS");
+    //                     print("Após vivendo em perfeita harmonia durante cinco anos, os habitantes de Paradiso" +
+    //                     "são surpreendidos por um novo morador, um dos vaqueiros da comunidade recolhe uma pessoa " +
+    //                     "que estava caída em algum lugar do deserto do sertão, quando o viajante recobra os sentidos" +
+    //                     "afim de saber o destino de sua família " + nome + " o questiona da situação na sua vila, " +
+    //                     "porém o que ele descobre lhe causa uam tristeza profunda. O viajante conta que o mulher que " +
+    //                     nome + "viu cinco anos atrás era na verdade uma conquistadora de terras, que ia aos poucos " +
+    //                     "subjulgando e escravizando as vilas e pequenas cidades ao longo do São Francisco e que " +
+    //                     "esse teria sido o fim de sua vila e sua família. " + nome + "se sente muito culpado" +
+    //                     "e se isola por anos pois se sente de certa forma culpado pelo que aconteceu à sua familia.");
+    //                     print("FIM DA HISTÓRIA");
+    //                 }
+    //                 else{
+    //                     print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar na "+
+    //                     "sua familia. Ele diz não para o seu amor, e a vê partindo para longe de seus braços " +
+    //                     "sem olhar para trás. A partir dali ele decide procurar sua mãe e sua irmã, e vingar a "+
+    //                     "morte de seu pai, ele faz uma prece a Padre Cícero e começa a procurar sua família e " +
+    //                     "esquecer aquela que um dia foi seu grande amor.");
+    //                     print("FIM DO CAPITULO 1");
+    //                 }
+    //             }
+    //             else{
+    //                 print(nome + ", furtivamente anda pelas ruelas da vila, ocasionalmente atacando mais algumas" +
+    //                 "pessoas vestidas como aquele primeiro soldado, após alguns minutos ele finalmente se encontra "+
+    //                 "com a origem de toda aquele caos " + "Uma mulher alta, proximo dos 1m80 esguia e com "+
+    //                 "um rosto asustador ordenando a seus homens e mulheres que levem a ela os sobreviventes " +
+    //                 "ele pensa em ataca-la e acabar com tudo aquilo, quando subitamente é puxado para dentro de uma das" +
+    //                 "casas. Prestes a atirar, ele vê o rosto de sua amada, que trás todo o corforto que ele procurava" +
+    //                 "naquele momento.\n Ele contou a ela sobre seu pai e ela falou que perdeu sua mãe também, " +
+    //                 "e que movida pelo luto decidiu que iria, naquele momento, embora dali, e convida " + nome +
+    //                 "para se juntar a ela. Nesse momento " + nome + " se vê encurralado, ao mesmo tempo que " +
+    //                 "ele deseja vingar a morte de seu pai, aquela é a hora perfeita para que os dois possam " +
+    //                 "ter o mais próximo de uma vida normal naquele mundo tão surreal. Ele se vê sem tempo para " +
+    //                 "tomar uma decisão, ele deseja ficar mas também deseja fugir na mesma intensidade. O que " +
+    //                 nome + " deverá fazer, ele deve FUGIR com sua amada ou FICAR e lutar?");
+    //                 String decisao = leitor .nextLine();
+    //                 if (decisao.equalsIgnoreCase("FUGIR")){
+    //                     print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar no "+
+    //                     " seu futuro. Ele diz sim para o amor e para sua amada, juntos eles conseguem chegar ao limiar" +
+    //                     "da cidade, abatendo alguns poucos soldados, quando chegam ao fim da cidade ele olha para "+
+    //                     "trás e vê ali onde um dia chamou de lar, mas agora não é hora de se lamentar, eles começam" +
+    //                     "a correr sem olhar para trás, sem olhar para o que agora é seu passado.");
+    //                     print("FIM DO CAPITULO 1");
+    //                     print("EPÍLOGO");
+    //                     print("Após dias caminhando no sol escaldante, sem perspectiva de quando acharão a "+
+    //                     "tal terra prometida, o nosso casal é salvo por um vaqueiro desconhecido que os leva "+
+    //                     "na garupa do seu cavalo, ao sentarem no animal ambos desmaiam de exaustão, se questionando "+
+    //                     "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + "se depara com um " +
+    //                     "lugar que nem em sonho conseguria idealizar, não se via um sinal de seca, de areia ou de " +
+    //                     "desolação, grama verde percorria todo o espaço até perder a vista, árvores e uma água cristalina "+
+    //                     "cobriam cada m² de beleza deslumbrante. " + nome + "e Ícaro foram bem recebiddos pelos "+
+    //                     "locias que os alimentaram e ensinaram os valores e regras de Paradiso, ao fim foram " +
+    //                     "perguntados se gostariam de ficar na comunidade e se juntar a eles, o que ambos assentiram" +
+    //                     "não vendo sentido em fazer todo aquele esforço em vão.");
+    //                     print("CINCO ANOS DEPOIS");
+    //                     print("Após vivendo em perfeita harmonia durante cinco anos, os habitantes de Paradiso" +
+    //                     "são surpreendidos por um novo morador, um dos vaqueiros da comunidade recolhe uma pessoa " +
+    //                     "que estava caída em algum lugar do deserto do sertão, quando o viajante recobra os sentidos" +
+    //                     "afim de saber o destino de sua família " + nome + " o questiona da situação na sua vila, " +
+    //                     "porém o que ele descobre lhe causa uma tristeza profunda. O viajante conta que o mulher que " +
+    //                     nome + "viu cinco anos atrás era na verdade uma conquistadora de terras, que ia aos poucos " +
+    //                     "subjulgando e escravizando as vilas e pequenas cidades ao longo do São Francisco e que " +
+    //                     "esse teria sido o fim de sua vila e sua família. " + nome + "se sente muito culpado" +
+    //                     "e se isola por anos pois se sente de certa forma culpada pelo que aconteceu à sua familia.");
+    //                     print("FIM DA HISTÓRIA");
+    //                 }
+    //                 else{
+    //                     print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar na "+
+    //                     "sua familia. Ela diz não para o seu amor, e o vê partindo para longe de seus braços " +
+    //                     "sem olhar para trás. A partir dali ele decide procurar sua mãe e sua irmã, e vingar a "+
+    //                     "morte de seu pai, ela faz uma prece a Padre Cícero e começa a procurar sua família e " +
+    //                     "esquecer aquele que um dia foi seu grande amor.");
+    //                     print("FIM DO CAPITULO 1");
+    //                 }
+    //             }
+    //         }
+    //     leitor.close();
+    //     }
+    // }
+
+
                 
             
     
