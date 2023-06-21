@@ -203,28 +203,81 @@ public class Main {
                 "gritar os nomes das sua familiares, em busca de encontrá-las, para seu alivio, surgindo ao longe "+
                 "elas aparacem, um pouco abatidas mas bem. " + nome + "fala sobre o destino do seu pai, o que deixa o tom " +
                 " da conversa ainda mais tenso, em seguida fala sobre seu plano, de abater a odiosa mulher que tanto o tirou" +
-                "sua mãe recomenda então que ele vá a procura o Coronel, tendo em vista que eo antigo militar, apesar de " +
+                "sua mãe recomenda então que ele vá a procura o Capitão, tendo em vista que eo antigo militar, apesar de " +
                 "há muito tempo fora da ativa, ainda é conhecido por toda a região como o eximio estrategista que, porém" +
-                "apesar de ser o mais sensato a se fazer ele ainda possui muitos ressentimentos em relação ao Coronel. " +
+                "apesar de ser o mais sensato a se fazer ele ainda possui muitos ressentimentos em relação ao Capitão. " +
                 "Após ponderar e não chegar a nenhuma decisão " + nome + "fita o horizonte em busca de uma resposta divina " +
                 "talvez seu pai, em algum lugar possa dar a ele um sinal. Porém nada acontece e a decisão ainda precisa ser" +
-                "dele, ele deveria BUSCAR ajuda do Coronel ou LUTAR sozinho a majestosa vilã?");
+                "dele, ele deveria BUSCAR ajuda do Capitão ou LUTAR sozinho a majestosa vilã?");
                 decisao = leitor .nextLine();
                 if (decisao.equalsIgnoreCase("buscar"));
-                        print("Decidido a tomar a decisão correta, ele busca ajuda com o Coronel," +
+                print("FIM DO CAPITULO II");
+                print("CAPITULO III - Embate no Ninho de Tubarões");
+                        print("Decidido a tomar a decisão correta, ele busca ajuda com o Capitão," +
                         "colocando todas as suas diferenças de lado e indo buscar a vingnça que ele tanto" +
-                        "almeja. Chegando na residencia do coronel, ele é recebido por um homme em tormenta" +
+                        "almeja. Chegando na residencia do Capitão, ele é recebido por um homme em tormenta" +
                         "preocupado com sua filha desaparecida e em luto pela mulher que acabara de perder" +
                         "ele ouve " + nome + "falar mas sem muito interesse, porém quando o assunto da derrota " +
                         "surge ele se mostra interessado, e logo os dois montam um plano para expulsarem a mulher " +
                         "da vila. Com o plano em mente ambos vão para o centro da vila para expurgarem o mal " +
-                        "de vez. No caminho eles são avistados por dois capangas que ");
+                        "de vez. No caminho eles são avistados por dois capangas que dão ordem de pare e falam que "+
+                        "eles devem ser encaminados para a lider Shayanne. Eles então se entregam, como parte do plano" +
+                        "para alcaçarem mais rapidamente o covil principal da líder." +
+                        "O plano foi bem sucedido e ambos são levados direto a chefe da facção, algemados" + 
+                        "eles não mostram resistencia até chegarem no local final de encontro com Shayanne." +
+                        "Durante a curta estadia ele discursou sobre seus planos de escravizar aquela região" +
+                        "os forçando a trabalhar nas minas de carvão que ela possui. Entre palavras de ameaça o " +
+                        "General dá o sinal que " + nome + "esperando. Eles facilmente consguem se soltar e "
+                        + "investem contra dois dos guardas armados, nocauteando-os e conseguindo subjulgar " +
+                        "mais dois, só então, " + nome + "percebe algo que até então não havia notado " +
+                        "todos os dentes dos capangas foram modificados para parecer dentes de tubraão" +
+                        "assim como suas peles receberam uma camada grossa de algo que pareciam escamas" +
+                        "que tornou o combate um pouco mais complicado do que eles imaginavam que seria" +
+                        "passado esse momento de reflexão acerca dos soldados caídos sobou apenas a líder dos "
+                        + "homens tubarões para se preocupar, e que naquela distancia pode-se perceber mais " +
+                        "claramente como ela alterada igualmente, apesar dos dentes não serem muito diferentes " +
+                        "do nosso heroi, a pele era igualmente grossa e escamosa, talvez até mais dificil de penetrar" +
+                        "que as dos seus capangas e o que mais chamou atenção foi os olhos dela, negros e preenchia " +
+                        "completamente as orbitas e seus olhos, quase que o hipnotizando. Ao resistir àquele transe" +
+                        nome +" consegue retornar a batalha, ");
+                        if (arma.equalsIgnoreCase("carabina"));
+                            print("recarregando rapidamente sua arma e buscando cobertura, ele não deixa de notar" +
+                            "que ela possui sua arma propria também, uma especie de besta feita de um material branco-" +
+                            "amarelado, algo parecido com ossos\n '- Talvez seja ossos de tubarão', pensou, "+
+                            "seria cômico se não fosse tragico. Dentre os proximos minutos houve uma luta de proporções" +
+                            "épicas, trocas de tiros e flexas de ossos cobertos de seiva de Jurubeba, planta que pode causar" +
+                            "necropsia gradativamente. Apesar das altas habilidades de Shayanne, nossos herois consegem derrotá-" +
+                            "la com um tiro generoso na região abdominal, que fura as duras escamas e conseguem penetrar e "+
+                            "destuir os orgãos internos da rainha-tubrão, que cai no chão perdendo sangue e sentindo sua vida" +
+                            "se esvair, cansados mas vitoriosos o Capitão Hermenegildo e " + nome + "retornam as suas casas" +
+                            "com uma promessa de paz de ambas as partes e de cooperação para a reconstrução da vila" +
+                            "com os poucos moradores restantes.");
+                            print("FIM DA HISTORIA");
+                            print("EPÍLOGO");
+                            print("Ao retornar para a casa ele se encontra com sua mãe e irmã, ao ver a destuição do "+
+                            "seu lar, ele não consegue não pensar em seu amor, Catarina. Com o coração dividido entre "+
+                            "continuar ali e reconstruir os danos causados no ultimo dia e se aventurar a procurar seu amor," +
+                            nome + "se vê novamente sem saída, deveria ele ir ATRAS de sua amada ou RECONSTRUIR a vila com sua familia?");
+                                decisao = leitor. nextLine();
+                                if (decisao.equalsIgnoreCase("atras")){
+                                    print("Após conversar com sua mãe, ele finalmente consegue seguir em paz, a procura " +
+                                    "da felicidade com sua amada, enquanto tem garantia que sua família ficará feliz.");
+                                }
+                                else{
+                                    print("Mesmo de coração partido ele decide cumprir com seu dever perante" +
+                                    "a sua família e decide continuar cuidando dela.");
+                                }
+                        if (arma.equalsIgnoreCase("peixeira")){
+                            print("sacando rapidamente sua "+ arma + "ele parte para cima dela festerindo golpes de faca," +
+                            " que gradativamente vão perfurando sua dra pele de escamas, algumas vezes procurando cobertura" +
+                            "");
+                        }    
                     }
                 }
             }
                 //o amor do heroi foge e ele vai atacar os vilões usano sua arma
                 //else if arma 1 arma 2 e arma 3
-                //depois de muita luta o heroi em conflito se pergunta se deve se juntar ao coronel
+                //depois de muita luta o heroi em conflito se pergunta se deve se juntar ao Capitão
                 //if e else
                 //if sim eles se juntam e derrotam a vilã mas nunca se encontra com o seu amor
                 //else ele luta bravamente e morre o amor estava grávida de um filho seu 
