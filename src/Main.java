@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
-        public static void print (String a){
-            print(a);
+        public static void print(String a){
+            System.out.println(a);
         }
+        
     public static void main(String [] args) {
         Scanner leitor = new Scanner (System.in);
         print("=====================Nas Areias do Sertão===========================");
@@ -78,13 +79,13 @@ public class Main {
                 "Já na parte da manhã " + nome + "acorda atordoado, procurando sentido no que acabou de sonhar" +
                 "parece ser mais tarde do que ele costuma acordar já que não ouve os barulhos tradicionais do "+
                 "seu dia-a-dia, porém um estrondo urge no limiar da sua audição, estremecendo seus timpanos e " +
-                "fazendo-o perder um pouco do seu equilibrio. " + nome + "não sabe o que está acontecendo " +
+                "fazendo-o perder um pouco do seu equilibrio. " + nome + " não sabe o que está acontecendo " +
                 "mas logo logo irá descobrir que seu pesadelo irá se tornar realidade. " +
                 "Fora de sua casa ele segue os sons de balas e gritos até que chega ao centro da vila e " +
                 "encontra uma cena de desolação, as pessoas, que tanto lutaram pela sua sobrevivencia" +
                 "familias que há mais de decadas vem se esfoçando o máximo para remanecer nas terras centenárias " +
                 "de seus antepassados, agora estão caidos no chão, sem vida no olhar, nesse momento vem em sua mente " +
-                "Catarina, onde ela está, como ela está, ele empunha sua " + arma + "e vai à procura de sua amada. "+ 
+                "Catarina, onde ela está, como ela está, ele empunha sua " + arma + " e vai à procura de sua amada. "+ 
                 "No caminho ele faz algumas vitimas, pessoas estranhas vestidas de modo completamente diferente e " +
                 "hostis.\n" +
                 "Ao virar em uma pequena viela ele se depara uma uam cena que o faz perder novamente seu equilibrio " +
@@ -98,7 +99,7 @@ public class Main {
                     "ele pensa em atirar e acabar com tudo aquilo, quando subitamente é puxado para dentro de uma das" +
                     "casas. Prestes a atirar, ele vê o rosto de sua amada, que trás todo o corforto que ele procurava" +
                     "naquele momento.\n Ele contou a ela sobre seu pai e ela falou que perdeu sua mãe também, " +
-                    "e que movida pelo luto decidiu que iria, naquele momento, embora dali, e convida " + nome +
+                    " e que movida pelo luto decidiu que iria, naquele momento, embora dali, e convida " + nome +
                     "para se juntar a ela. Nesse momento " + nome + " se vê encurralado, ao mesmo tempo que " +
                     "ele deseja vingar a morte de seu pai, aquela é a hora perfeita para que os dois possam " +
                     "ter o mais próximo de uma vida normal naquele mundo tão surreal. Ele se vê sem tempo para " +
@@ -106,7 +107,7 @@ public class Main {
                     nome + " deverá fazer, ele deve FUGIR com sua amada ou FICAR e lutar?");
                     String decisao = leitor .nextLine();
                     if (decisao.equalsIgnoreCase("FUGIR")){
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar no "+
+                        print("Apesar da dor naquele momento, " + nome + " decide que deve ser racional e pensar no "+
                         " seu futuro. Ele diz sim para o amor e para sua amada, juntos eles conseguem chegar ao limiar" +
                         "da cidade, abatendo alguns poucos soldados, quando chegam ao fim da cidade ele olha para "+
                         "trás e vê ali onde um dia chamou de lar, mas agora não é hora de se lamentar, eles começam" +
@@ -116,10 +117,10 @@ public class Main {
                         print("Após dias caminhando no sol escaldante, sem perspectiva de quando acharão a "+
                         "tal terra prometida, o nosso casal é salvo por um vaqueiro desconhecido que os leva "+
                         "na garupa do seu cavalo, ao sentarem no animal ambos desmaiam de exaustão, se questionando "+
-                        "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + "se depara com um " +
+                        "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + " se depara com um " +
                         "lugar que nem em sonho conseguria idealizar, não se via um sinal de seca, de areia ou de " +
                         "desolação, grama verde percorria todo o espaço até perder a vista, árvores e uma água cristalina "+
-                        "cobriam cada m² de beleza deslumbrante. " + nome + "e Catarina foram bem recebiddos pelos "+
+                        "cobriam cada m² de beleza deslumbrante. " + nome + " e Catarina foram bem recebiddos pelos "+
                         "locias que os alimentaram e ensinaram os valores e regras de Paradiso, ao fim foram " +
                         "perguntados se gostariam de ficar na comunidade e se juntar a eles, o que ambos assentiram" +
                         "não vendo sentido em fazer todo aquele esforço em vão.");
@@ -131,12 +132,12 @@ public class Main {
                         "porém o que ele descobre lhe causa uam tristeza profunda. O viajante conta que o mulher que " +
                         nome + "viu cinco anos atrás era na verdade uma conquistadora de terras, que ia aos poucos " +
                         "subjulgando e escravizando as vilas e pequenas cidades ao longo do São Francisco e que " +
-                        "esse teria sido o fim de sua vila e sua família. " + nome + "se sente muito culpado" +
+                        "esse teria sido o fim de sua vila e sua família. " + nome + " se sente muito culpado" +
                         "e se isola por anos pois se sente de certa forma culpado pelo que aconteceu à sua familia.");
                         print("FIM DA HISTÓRIA");
                     }
                     else{
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar na "+
+                        print("Apesar da dor naquele momento, " + nome + " decide que deve ser racional e pensar na "+
                         "sua familia. Ele diz não para o seu amor, e a vê partindo para longe de seus braços " +
                         "sem olhar para trás. A partir dali ele decide procurar sua mãe e sua irmã, e vingar a "+
                         "morte de seu pai, ele faz uma prece a Padre Cícero e começa a procurar sua família e " +
@@ -153,14 +154,14 @@ public class Main {
                     "casas. Prestes a atirar, ele vê o rosto de sua amada, que trás todo o corforto que ele procurava" +
                     "naquele momento.\n Ele contou a ela sobre seu pai e ela falou que perdeu sua mãe também, " +
                     "e que movida pelo luto decidiu que iria, naquele momento, embora dali, e convida " + nome +
-                    "para se juntar a ela. Nesse momento " + nome + " se vê encurralado, ao mesmo tempo que " +
+                    " para se juntar a ela. Nesse momento " + nome + " se vê encurralado, ao mesmo tempo que " +
                     "ele deseja vingar a morte de seu pai, aquela é a hora perfeita para que os dois possam " +
                     "ter o mais próximo de uma vida normal naquele mundo tão surreal. Ele se vê sem tempo para " +
                     "tomar uma decisão, ele deseja ficar mas também deseja fugir na mesma intensidade. O que " +
                     nome + " deverá fazer, ele deve FUGIR com sua amada ou FICAR e lutar?");
                     String decisao = leitor .nextLine();
                     if (decisao.equalsIgnoreCase("FUGIR")){
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar no "+
+                        print("Apesar da dor naquele momento, " + nome + " decide que deve ser racional e pensar no "+
                         " seu futuro. Ele diz sim para o amor e para sua amada, juntos eles conseguem chegar ao limiar" +
                         "da cidade, abatendo alguns poucos soldados, quando chegam ao fim da cidade ele olha para "+
                         "trás e vê ali onde um dia chamou de lar, mas agora não é hora de se lamentar, eles começam" +
@@ -170,10 +171,10 @@ public class Main {
                         print("Após dias caminhando no sol escaldante, sem perspectiva de quando acharão a "+
                         "tal terra prometida, o nosso casal é salvo por um vaqueiro desconhecido que os leva "+
                         "na garupa do seu cavalo, ao sentarem no animal ambos desmaiam de exaustão, se questionando "+
-                        "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + "se depara com um " +
+                        "se deveriam mesmo ter tido aquela atitude. Após acordar " + nome + " se depara com um " +
                         "lugar que nem em sonho conseguria idealizar, não se via um sinal de seca, de areia ou de " +
                         "desolação, grama verde percorria todo o espaço até perder a vista, árvores e uma água cristalina "+
-                        "cobriam cada m² de beleza deslumbrante. " + nome + "e Catarina foram bem recebiddos pelos "+
+                        "cobriam cada m² de beleza deslumbrante. " + nome + " e Catarina foram bem recebiddos pelos "+
                         "locias que os alimentaram e ensinaram os valores e regras de Paradiso, ao fim foram " +
                         "perguntados se gostariam de ficar na comunidade e se juntar a eles, o que ambos assentiram" +
                         "não vendo sentido em fazer todo aquele esforço em vão.");
@@ -185,12 +186,12 @@ public class Main {
                         "porém o que ele descobre lhe causa uam tristeza profunda. O viajante conta que o mulher que " +
                         nome + "viu cinco anos atrás era na verdade uma conquistadora de terras, que ia aos poucos " +
                         "subjulgando e escravizando as vilas e pequenas cidades ao longo do São Francisco e que " +
-                        "esse teria sido o fim de sua vila e sua família. " + nome + "se sente muito culpado" +
+                        "esse teria sido o fim de sua vila e sua família. " + nome + " se sente muito culpado" +
                         "e se isola por anos pois se sente de certa forma culpado pelo que aconteceu à sua familia.");
                         print("FIM DA HISTÓRIA");
                     }
                     else{
-                        print("Apesar da dor naquele momento, " + nome + "decide que deve ser racional e pensar na "+
+                        print("Apesar da dor naquele momento, " + nome + " decide que deve ser racional e pensar na "+
                         "sua familia. Ele diz não para o seu amor, e a vê partindo para longe de seus braços " +
                         "sem olhar para trás. A partir dali ele decide procurar sua mãe e sua irmã, e vingar a "+
                         "morte de seu pai, ele faz uma prece a Padre Cícero e começa a procurar sua família e " +
@@ -201,46 +202,46 @@ public class Main {
                 + "irmã, ele se direciona para sua casa, para começar as buscas, ao chegar lá encontra sua residência " +
                 "completamente destruida, ação atribuida a mulher misteriosa da praça, em completo desespero ele começa a " +
                 "gritar os nomes das sua familiares, em busca de encontrá-las, para seu alivio, surgindo ao longe "+
-                "elas aparacem, um pouco abatidas mas bem. " + nome + "fala sobre o destino do seu pai, o que deixa o tom " +
+                "elas aparacem, um pouco abatidas mas bem. " + nome + " fala sobre o destino do seu pai, o que deixa o tom " +
                 " da conversa ainda mais tenso, em seguida fala sobre seu plano, de abater a odiosa mulher que tanto o tirou" +
                 "sua mãe recomenda então que ele vá a procura o Capitão, tendo em vista que eo antigo militar, apesar de " +
                 "há muito tempo fora da ativa, ainda é conhecido por toda a região como o eximio estrategista que, porém" +
                 "apesar de ser o mais sensato a se fazer ele ainda possui muitos ressentimentos em relação ao Capitão. " +
-                "Após ponderar e não chegar a nenhuma decisão " + nome + "fita o horizonte em busca de uma resposta divina " +
+                "Após ponderar e não chegar a nenhuma decisão " + nome + " fita o horizonte em busca de uma resposta divina " +
                 "talvez seu pai, em algum lugar possa dar a ele um sinal. Porém nada acontece e a decisão ainda precisa ser" +
                 "dele, ele deveria BUSCAR ajuda do Capitão ou LUTAR sozinho a majestosa vilã?");
                 decisao = leitor .nextLine();
-                if (decisao.equalsIgnoreCase("buscar"));
-                print("FIM DO CAPITULO II");
-                print("CAPITULO III - Embate no Ninho de Tubarões");
-                        print("Decidido a tomar a decisão correta, ele busca ajuda com o Capitão," +
-                        "colocando todas as suas diferenças de lado e indo buscar a vingnça que ele tanto" +
-                        "almeja. Chegando na residencia do Capitão, ele é recebido por um homme em tormenta" +
-                        "preocupado com sua filha desaparecida e em luto pela mulher que acabara de perder" +
-                        "ele ouve " + nome + "falar mas sem muito interesse, porém quando o assunto da derrota " +
-                        "surge ele se mostra interessado, e logo os dois montam um plano para expulsarem a mulher " +
-                        "da vila. Com o plano em mente ambos vão para o centro da vila para expurgarem o mal " +
-                        "de vez. No caminho eles são avistados por dois capangas que dão ordem de pare e falam que "+
-                        "eles devem ser encaminados para a lider Shayanne. Eles então se entregam, como parte do plano" +
-                        "para alcaçarem mais rapidamente o covil principal da líder." +
-                        "O plano foi bem sucedido e ambos são levados direto a chefe da facção, algemados" + 
-                        "eles não mostram resistencia até chegarem no local final de encontro com Shayanne." +
-                        "Durante a curta estadia ele discursou sobre seus planos de escravizar aquela região" +
-                        "os forçando a trabalhar nas minas de carvão que ela possui. Entre palavras de ameaça o " +
-                        "General dá o sinal que " + nome + "esperando. Eles facilmente consguem se soltar e "
-                        + "investem contra dois dos guardas armados, nocauteando-os e conseguindo subjulgar " +
-                        "mais dois, só então, " + nome + "percebe algo que até então não havia notado " +
-                        "todos os dentes dos capangas foram modificados para parecer dentes de tubraão" +
-                        "assim como suas peles receberam uma camada grossa de algo que pareciam escamas" +
-                        "que tornou o combate um pouco mais complicado do que eles imaginavam que seria" +
-                        "passado esse momento de reflexão acerca dos soldados caídos sobou apenas a líder dos "
-                        + "homens tubarões para se preocupar, e que naquela distancia pode-se perceber mais " +
-                        "claramente como ela alterada igualmente, apesar dos dentes não serem muito diferentes " +
-                        "do nosso heroi, a pele era igualmente grossa e escamosa, talvez até mais dificil de penetrar" +
-                        "que as dos seus capangas e o que mais chamou atenção foi os olhos dela, negros e preenchia " +
-                        "completamente as orbitas e seus olhos, quase que o hipnotizando. Ao resistir àquele transe" +
-                        nome +" consegue retornar a batalha, ");
-                        if (arma.equalsIgnoreCase("carabina"));
+                if (decisao.equalsIgnoreCase("buscar")){
+                    print("FIM DO CAPITULO II");
+                    print("CAPITULO III - Embate no Ninho de Tubarões");
+                    print("Decidido a tomar a decisão correta, ele busca ajuda com o Capitão," +
+                    "colocando todas as suas diferenças de lado e indo buscar a vingnça que ele tanto" +
+                    "almeja. Chegando na residencia do Capitão, ele é recebido por um homme em tormenta" +
+                    "preocupado com sua filha desaparecida e em luto pela mulher que acabara de perder" +
+                    "ele ouve " + nome + " falar mas sem muito interesse, porém quando o assunto da derrota " +
+                    "surge ele se mostra interessado, e logo os dois montam um plano para expulsarem a mulher " +
+                    "da vila. Com o plano em mente ambos vão para o centro da vila para expurgarem o mal " +
+                    "de vez. No caminho eles são avistados por dois capangas que dão ordem de pare e falam que "+
+                    "eles devem ser encaminados para a lider Shayanne. Eles então se entregam, como parte do plano" +
+                    "para alcaçarem mais rapidamente o covil principal da líder." +
+                    "O plano foi bem sucedido e ambos são levados direto a chefe da facção, algemados" + 
+                    "eles não mostram resistencia até chegarem no local final de encontro com Shayanne." +
+                    "Durante a curta estadia ele discursou sobre seus planos de escravizar aquela região" +
+                    "os forçando a trabalhar nas minas de carvão que ela possui. Entre palavras de ameaça o " +
+                    "General dá o sinal que " + nome + " esperando. Eles facilmente consguem se soltar e "
+                    + "investem contra dois dos guardas armados, nocauteando-os e conseguindo subjulgar " +
+                    "mais dois, só então, " + nome + " percebe algo que até então não havia notado " +
+                    "todos os dentes dos capangas foram modificados para parecer dentes de tubraão" +
+                    "assim como suas peles receberam uma camada grossa de algo que pareciam escamas" +
+                    "que tornou o combate um pouco mais complicado do que eles imaginavam que seria" +
+                    "passado esse momento de reflexão acerca dos soldados caídos sobou apenas a líder dos "
+                    + "homens tubarões para se preocupar, e que naquela distancia pode-se perceber mais " +
+                    "claramente como ela alterada igualmente, apesar dos dentes não serem muito diferentes " +
+                    "do nosso heroi, a pele era igualmente grossa e escamosa, talvez até mais dificil de penetrar" +
+                    "que as dos seus capangas e o que mais chamou atenção foi os olhos dela, negros e preenchia " +
+                    "completamente as orbitas e seus olhos, quase que o hipnotizando. Ao resistir àquele transe" +
+                    nome +" consegue retornar a batalha, ");
+                        if (arma.equalsIgnoreCase("carabina")){
                             print("recarregando rapidamente sua arma e buscando cobertura, ele não deixa de notar" +
                             "que ela possui sua arma propria também, uma especie de besta feita de um material branco-" +
                             "amarelado, algo parecido com ossos\n '- Talvez seja ossos de tubarão', pensou, "+
@@ -249,7 +250,7 @@ public class Main {
                             "necropsia gradativamente. Apesar das altas habilidades de Shayanne, nossos herois consegem derrotá-" +
                             "la com um tiro generoso na região abdominal, que fura as duras escamas e conseguem penetrar e "+
                             "destuir os orgãos internos da rainha-tubrão, que cai no chão perdendo sangue e sentindo sua vida" +
-                            "se esvair, cansados mas vitoriosos o Capitão Hermenegildo e " + nome + "retornam as suas casas" +
+                            "se esvair, cansados mas vitoriosos o Capitão Hermenegildo e " + nome + " retornam as suas casas" +
                             "com uma promessa de paz de ambas as partes e de cooperação para a reconstrução da vila" +
                             "com os poucos moradores restantes.");
                             print("FIM DA HISTORIA");
@@ -257,7 +258,7 @@ public class Main {
                             print("Ao retornar para a casa ele se encontra com sua mãe e irmã, ao ver a destuição do "+
                             "seu lar, ele não consegue não pensar em seu amor, Catarina. Com o coração dividido entre "+
                             "continuar ali e reconstruir os danos causados no ultimo dia e se aventurar a procurar seu amor," +
-                            nome + "se vê novamente sem saída, deveria ele ir ATRAS de sua amada ou RECONSTRUIR a vila com sua familia?");
+                            nome + " se vê novamente sem saída, deveria ele ir ATRAS de sua amada ou RECONSTRUIR a vila com sua familia?");
                                 decisao = leitor. nextLine();
                                 if (decisao.equalsIgnoreCase("atras")){
                                     print("Após conversar com sua mãe, ele finalmente consegue seguir em paz, a procura " +
@@ -267,8 +268,9 @@ public class Main {
                                     print("Mesmo de coração partido ele decide cumprir com seu dever perante" +
                                     "a sua família e decide continuar cuidando dela.");
                                 }
+                        }
                         if (arma.equalsIgnoreCase("peixeira")){
-                            print("sacando rapidamente sua "+ arma + "ele parte para cima dela "+
+                            print("sacando rapidamente sua "+ arma + " ele parte para cima dela "+
                             "desferindo golpes de faca, que gradativamente vão perfurando sua " +
                             "dura pele de escamas, ele não deixa de notar que ela possui sua" +
                             "arma propria também, uma especie de besta feita de um material branco-"+
@@ -282,7 +284,7 @@ public class Main {
                             "prevalencia de escamas destuir os orgãos internos da rainha-tubrão," +
                             "que cai no chão perdendo sangue e sentindo sua vida" +
                             "se esvair, cansados mas vitoriosos o Capitão Hermenegildo e " + nome + 
-                            "retornam as suas casas com uma promessa de paz de ambas as partes " +
+                            " retornam as suas casas com uma promessa de paz de ambas as partes " +
                             "e de cooperação para a reconstrução da vila com os poucos moradores restantes.");
                             print("FIM DA HISTORIA");
                             print("EPÍLOGO");
@@ -300,19 +302,21 @@ public class Main {
                             else{
                                 print("Mesmo de coração partido ele decide cumprir com seu dever perante" +
                                     "a sua família e decide continuar cuidando dela.");
+                            }
+                        }
                         if (arma.equalsIgnoreCase("mandala")){
                             print("tirando sua Mandala ele começa a se concentrar para ativar "+
                             "os poderes, após conseguir liberar as pimeiras rajadas de energia " +
                             "ele se sente preparado para atacar, entrando em combate com a rainha-" +
                             "tubarão, que retrucava com alvejando-o com sua besta feita de um material" +
-                            "branco-amarelao, parecido com ossos, - Talvez seja ossos de tubarão pensou," +
+                            "branco-amarelao, parecido com ossos, - Talvez seja ossos de tubarão pensou, " +
                             nome + ", e com suas flechas de osso cobertas" +
                             "de seiva de Jurubeba, planta que pode causar necropsia gradativamente voavam em "+
                             "direção ao nosso heroi. Após queimar muito a pele de Shayanne e lhe causar uma dor " +
                             "terrivel com os espinhos, finaemnte a líder sucumbe aos ferimentos e vê seu fim" +
                             "na morte. Caída, sem vida os nossos vitoriosos podem finalmente desfrutar de alguma " +
                             "calmaria, vendo que não há mais por que lutar. Capitão Hemernegildo e " + nome +
-                            "retornam as suas casas com uma promessa de paz de ambas as partes " +
+                            " retornam as suas casas com uma promessa de paz de ambas as partes " +
                             "e de cooperação para a reconstrução da vila com os poucos moradores restantes.");
                             print("FIM DA HISTORIA");
                             print("EPÍLOGO");
@@ -333,17 +337,63 @@ public class Main {
                         }
                         }    
                 
+                    
                     }
-                }
                 else {
-                    print("Ainda ressentido por todos os anos de desavenças, " + nome + "decide enfrentar a grande "+
-                    "ameaça por si só, apenas armado com sua " + arma + "ele decide furtivamente invadir a " +
-                    "");
+                    print("Ainda ressentido por todos os anos de desavenças, " + nome + " decide enfrentar a grande "+
+                    "ameaça por si só, apenas armado com sua " + arma + " ele decide furtivamente invadir a " +
+                    "a base no centro da vila. Porém com pouca esperiência em batalha e sem o Capitão como " +
+                    "ajuda nas estratégias ele é capturado e se vê aos pés da assustadora mulher. Nesse ponto " +
+                    "ele consegue notar mais detalhes dela e de seus aliados, como suas peles grossas e escamosas" +
+                    "que todos eles compartilham e os olhos profundos e negros, que preenche toda as órbitas "+
+                    "de seus olhos. Enquanto a vilã discursava sobre o futuro da vila e de " + nome + ", ele "+
+                    "procurava manteiras de fugir daquela situação. Antes mesmo de Shayanne encerrar seu " +
+                    "monólogo, " + nome + "consegue se desvencilhar dos capagangas e sacar sua arma");
+                    if (arma.equalsIgnoreCase("carabina")){
+                            print("recarregar rapidamente, de modo que ele consegue alvejar a mulher, " +
+                        "porém não houve muita efetividade, sem a ajuda do Capitão a luta se torna um " +
+                        "pouco injusta para o lado do nosso heroi. Lutando bravamente contra a besta feita " +
+                        "de ossos e as flechas cobertas de seiva de Jurubeba, que podem necrosar gradativamente" +
+                        "o alvo, o nosso herói se ve desesperançoso, mas nada o preparou para a flecha que " +
+                        "vem e empala, diretamente no coração, o matando imediatamente, e condenando sua vila "+
+                        "às maiores atocidades cometidas por Shayanne");
+                        }
+                    if (arma.equalsIgnoreCase("peixeira")){
+                        print("e se dirigir direamente para a posição da mulher, pegando-a de surpresa " +
+                        "porém não houve muita efetividade, sem a ajuda do Capitão a luta se torna um " +
+                        "pouco injusta para o lado do nosso heroi. Lutando bravamente contra a besta feita " +
+                        "de ossos e as flechas cobertas de seiva de Jurubeba, que podem necrosar gradativamente" +
+                        "o alvo, o nosso herói se ve desesperançoso, mas nada o preparou para a flecha que " +
+                        "vem e empala, diretamente no coração, o matando imediatamente, e condenando sua vila "+
+                        "às maiores atocidades cometidas por Shayanne");
+                        }
+                    if (arma.equalsIgnoreCase("mandala")){
+                        print("e se dirigir direamente para a posição da mulher, pegando-a de surpresa " +
+                        "porém não houve muita efetividade, sem a ajuda do Capitão a luta se torna um " +
+                        "pouco injusta para o lado do nosso heroi. Lutando bravamente contra a besta feita " +
+                        "de ossos e as flechas cobertas de seiva de Jurubeba, que podem necrosar gradativamente" +
+                        "o alvo, o nosso herói se ve desesperançoso, mas nada o preparou para a flecha que " +
+                        "vem e empala, diretamente no coração, o matando imediatamente, e condenando sua vila "+
+                        "às maiores atocidades cometidas por Shayanne");
+                        }   
+                    print("FIM DA HISTORIA");
+                    print("EPILOGO");
+                    print("CINCO ANOS DEPOIS");
+                    print("Após cinco anos vivendo em perfeita harmonia, na maravilhosa Paradiso, um evento" +
+                    "pertuba a vida de Catarina e seu filho. Um viajante surge na garupa do cavalo de um dos " +
+                    "vaqueiros da comunidade, é o primeiro desde que ela mesma esteve nessa posição." +
+                    "após se recuperar, Catarina foi perguntar sobre sua vila, se ele tem noticias mas o que " +
+                    "ela descobre parte seu coração, ao descobrir que não apenas a lider Shayanne destruiu todo " +
+                    "o seu lar assim como matou seu pai e ambém aquele homem que um dia ela implorou para que "+
+                    "fugisse com ela. Desolada e muito triste ela só pensa em seu filho, que nunca conhecerá seu pai.");    
+
                 }
-            }
             }
         }
+        leitor .close();
+        }
     }
+    
 
             
     //         else{
